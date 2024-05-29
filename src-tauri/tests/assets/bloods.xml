@@ -1,0 +1,63 @@
+<BloodTestResult>
+    <Patient>
+        <Name>John Doe</Name>
+        <DateOfBirth>1985-05-15</DateOfBirth>
+    </Patient>
+    <TestDetails>
+        <TestDate>2024-05-29</TestDate>
+        <TestName>Complete Blood Count (CBC)</TestName>
+    </TestDetails>
+    <Results>
+        <Component>
+            <Name>White Blood Cell Count (WBC)</Name>
+            <Result>8.5</Result>
+            <Unit>x 10^9/L</Unit>
+            <ReferenceRange>4.0 - 11.0 x 10^9/L</ReferenceRange>
+        </Component>
+        <Component>
+            <Name>Red Blood Cell Count (RBC)</Name>
+            <Result>4.5</Result>
+            <Unit>x 10^12/L</Unit>
+            <ReferenceRange>4.0 - 6.0 x 10^12/L</ReferenceRange>
+        </Component>
+        <Component>
+            <Name>Hemoglobin (Hb)</Name>
+            <Result>14.5</Result>
+            <Unit>g/dL</Unit>
+            <ReferenceRange>12.0 - 16.0 g/dL</ReferenceRange>
+        </Component>
+        <Component>
+            <Name>Hematocrit (Hct)</Name>
+            <Result>42</Result>
+            <Unit>%</Unit>
+            <ReferenceRange>37% - 47%</ReferenceRange>
+        </Component>
+        <Component>
+            <Name>Mean Corpuscular Volume (MCV)</Name>
+            <Result>93</Result>
+            <Unit>fL</Unit>
+            <ReferenceRange>80 - 100 fL</ReferenceRange>
+        </Component>
+        <Component>
+            <Name>Mean Corpuscular Hemoglobin (MCH)</Name>
+            <Result>30</Result>
+            <Unit>pg</Unit>
+            <ReferenceRange>27 - 33 pg</ReferenceRange>
+        </Component>
+        <Component>
+            <Name>Mean Corpuscular Hemoglobin Concentration (MCHC)</Name>
+            <Result>32</Result>
+            <Unit>g/dL</Unit>
+            <ReferenceRange>32 - 36 g/dL</ReferenceRange>
+        </Component>
+        <Component>
+            <Name>Platelet Count</Name>
+            <Result>250</Result>
+            <Unit>x 10^9/L</Unit>
+            <ReferenceRange>150 - 400 x 10^9/L</ReferenceRange>
+        </Component>
+    </Results>
+    <Interpretation>
+        <Comments>No significant abnormalities detected in the complete blood count. Further clinical evaluation may be necessary based on the patient's medical history and symptoms.</Comments>
+    </Interpretation>
+</BloodTestResult>
